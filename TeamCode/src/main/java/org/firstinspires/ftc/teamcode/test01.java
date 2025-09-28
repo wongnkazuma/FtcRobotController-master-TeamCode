@@ -7,7 +7,7 @@ public class test01 {
 
     void myFunction() {
         Log.v(TAG, "myFunction");
-        var tvar = 1;
+        int tvar = 1;
         int iT2 = 2 ;
     }
 

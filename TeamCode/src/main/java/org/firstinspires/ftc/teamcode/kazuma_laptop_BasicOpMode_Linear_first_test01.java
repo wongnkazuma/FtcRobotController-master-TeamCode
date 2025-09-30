@@ -108,6 +108,8 @@ public class kazuma_laptop_BasicOpMode_Linear_first_test01 extends LinearOpMode 
 
             // Show the elapsed game time and wheel power.
             telemetry.addData("Status", "Run Time: " + runtime.toString());
+            sleep(5000);
+            telemetry.addData("Message", "Hello Driver");
             telemetry.addData("Motors", "left (%.2f), right (%.2f)", leftPower, rightPower);
             telemetry.update();
         }
